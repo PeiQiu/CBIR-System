@@ -28,3 +28,5 @@
 
 
 ## ImageTransformation
+
+type : 'no linear transform'
