@@ -11,17 +11,20 @@
 
 ## ImageCompressor
 
-### RLE : `(run length encoding) a lossless encoding scheme in which a sequence of same-colored pixels is store as a single value.`
+#### RLE : `(run length encoding) a lossless encoding scheme in which a sequence of same-colored pixels is store as a single value.`
   * Compression ratio of 4:3
   * Savings ratio of 25%
   
-### CAC : `The division of image region into four equal-sized subregions is representd  through a region quadtree`
+#### CAC : `The division of image region into four equal-sized subregions is representd  through a region quadtree`
 
-### DCT :
+#### DCT :
 ```
   * Convert to YCbCr color space and subsample in chroma
   * Tile into 8x8 blocks, offset by -128 and take the DCT
   * Quantize the coefficients.  Divide by small numbers in the upper-left of each tile and large numbers in the lower-right. 
 ```
 
-### Delta compression : `the simplest lossy predictive coding schemes. Recording the approximate error between the predicted and actual samples values.`
+#### Delta compression : `the simplest lossy predictive coding schemes. Recording the approximate error between the predicted and actual samples values.`
+
+
+## ImageTransformation
